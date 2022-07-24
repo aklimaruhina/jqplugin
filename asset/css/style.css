@@ -120,7 +120,7 @@ p.top-title{
 
 }
 .navbar-collapse{
-  background: var(--light-color);
+  /*background: var(--light-color);*/
 }
 
 .text-bold{
