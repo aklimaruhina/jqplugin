@@ -544,3 +544,36 @@ height: 20px;
   background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
   background-color: var(--yellow);
 }
+
+
+/*Testimonial slider*/
+.testimonial-reel {
+  margin-bottom: 4rem !important;
+  margin-top: 4rem;
+}
+.testimonial-reel .box {
+  position: relative;
+  margin-bottom: 30px;
+}
+.testimonial-reel .box .image {
+  margin: 0 auto -45px;
+  text-align: center;
+}
+.testimonial-reel .box .image img {
+  height: 130px;
+  margin: 0 auto;
+}
+.testimonial-reel .slick-slide {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.testimonial-reel .slick-slide.slick-cloned {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+.testimonial-reel .slick-slide.slick-current.slick-active {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
