@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maxilian</title>
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+	<link rel="stylesheet" href="asset/css/bootstrap.min.css">
+	<link rel="stylesheet" href="asset/percirclejs/percircle.css">
+
+    <link rel="stylesheet" href="asset/wow/css/animate.css" />
+
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/media.css">
+	<style>
+		.figure-img img{border-radius: 92% 75% 34% 50% / 72% 43% 80% 91%}
+		.carouselcontainer{position: relative;height: 300px;overflow: hidden;background: #000;}
+		    .carouselcontainer >div.items>div:nth-child(2) {
+		        position: absolute;
+		        top: 0;
+		        width: 100%;
+		        height: inherit;
+		        display: table;
+		        background-color: #0a3b52;
+		        border-radius: 5px;
+		    }
+		    .carouselcontainer>div.items>div:last-child {
+		        position: absolute;
+		        top: 0;
+		        width: 100%;
+		        height: 100%;
+		        display: table;
+		    }
+		    .carouselcontainer > div.items > div:first-child {
+
+		    display: table-cell;
+		    vertical-align: middle;
+		    height: 100%;
+		    width: 100%;
+
+		}
+		.items{
+			display: inline-block;cursor: pointer;
+		}
+
+	</style>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+	<header class="header">
+		<!-- <div class="container"> -->
+			<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+				<div class="container">	
+				  <a class="navbar-brand" href="#"><img src="asset/images/logo.png" alt=""></a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbar-top">
+				    <ul class="navbar-nav ms-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#about">about</a>
+				      </li>
+				      <li class="nav-item">
+				      	<a href="#features" class="nav-link">features</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#project">Project</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#blog">Blog</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contact">Contact</a>
+				      </li>
+				    </ul>
+				  </div>
+				</div>
+				</nav>
+	</header>
+	<section class="banner-page wow slideInRight" data-wow-delay="2s">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 order-1 order-md-0 col-12">
+					<div class="section-heading mt-sm-4">
+						<p class="top-title mb-sm-0">Creative agency</p>
+						<div class="typed_wrap">
+	                        <h2 class="section-title">Building Brand is Our <span class="typed"></span></h2>
+	                     </div>
+						<p class="banner-para">Can days you'll forth two grass form face you saying, divide. Subdue days light whose. Stars creepeth that creature thing.</p>
+						<button class="btn btn-yellow">View project</button>
+					</div>
+				</div>
+				<div class="col-md-6 order-0 order-md-1 col-12">
+					<div class="figure-img">
+						<img src="asset/images/banner2.jpg" class="img-responsive" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="percirle-page">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-left aos-init aos-animate" data-aos="fade-right">
+					<p class="top-title">Percircle</p>
+					<h3 class="section-title">Percentage Circles Examples</h3>
+				</div>
+			</div>
+			<div class="row align-items-center h-50">
+				<div class="col-md-2">
+					<div id="demo_1" data-percent="100" data-text="HTML" data-animate="true" data-secs="50" class="blue"></div>
+				</div>
+				<div class="col-md-2">
+					<div id="demo_2" data-percent="90" data-text="CSS" data-animate="true" data-secs="50" class="yello"></div>
+				</div>
+				<div class="col-md-2">
+					<div id="demo_3" data-percent="87" data-text="JS" data-animate="true" data-secs="50" class="purple"></div>
+				</div>
+				<div class="col-md-2">
+					<div id="demo_4" data-percent="94" data-text="BS5" data-animate="true" data-secs="50" class="green"></div>
+				</div>
+				<div class="col-md-2">
+					<div id="demo_5" data-percent="80" data-text="PSD" data-animate="true" data-secs="50" class="blue"></div>
+				</div>
+				<div class="col-md-2">
+					<div id="demo_6" data-percent="20" data-text="WP" data-animate="true" data-secs="50" class="red"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="water-wheel-carousel">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-left aos-init aos-animate" data-aos="fade-right">
+					<p class="top-title">Waterwheel</p>
+					<h3 class="section-title">Waterwheel Carousel Examples</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 ">
+					<div id="carousel" class="carouselcontainer">
+						<div class="items" id="item-1">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-1.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						<div class="items" id="item-2">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-2.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-3">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-3.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-4">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-4.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-5">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-5.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-6">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-6.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						<div class="items" id="item-7">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-7.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-8">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-8.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<div class="items" id="item-9">
+				            <div>
+				            </div>
+				            <div>
+				               <img src="asset/images/gallery/img-9.jpg" /> 
+				            </div>
+				            <div>
+				            </div>
+				        </div> 
+						
+						<img src="asset/images/gallery/img-2.jpg" id="item-2" /> 
+						<img src="asset/images/gallery/img-3.jpg" id="item-3" /> 
+						<img src="asset/images/gallery/img-4.jpg" id="item-4" /> 
+						<img src="asset/images/gallery/img-5.jpg" id="item-5" /> 
+						<img src="asset/images/gallery/img-6.jpg" id="item-6" /> 
+						<img src="asset/images/gallery/img-7.jpg" id="item-7" /> 
+						<img src="asset/images/gallery/img-8.jpg" id="item-8" /> 
+						<img src="asset/images/gallery/img-9.jpg" id="item-9" /> 
+						<img src="asset/images/gallery/img-10.jpg" alt="">
+					</div>
+					<a href="#" id="prev">Prev</a>
+					<a href="#" id="next">Next</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wow slideInLeft" data-wow-duration="4s">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 bg-green h-25">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, tenetur et placeat dolor, debitis dicta similique non quis dignissimos ipsum neque eos architecto libero iste deleniti modi incidunt minus earum ut tempore praesentium perspiciatis deserunt recusandae animi sit. Architecto obcaecati numquam, iure similique, eos deleniti fugiat. Praesentium sunt mollitia, maxime qui! Eum aut eveniet assumenda quos placeat sit voluptatem eligendi autem quaerat dolore aliquid asperiores atque similique, molestiae, nesciunt magnam modi nobis earum officia libero ullam id quisquam? Totam, iusto delectus nihil error commodi placeat tenetur, alias dolores quia natus eaque et explicabo, consectetur aspernatur a, magni ea dolorem ipsum?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<footer class="topfooter">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-div">
+				<div class="footer-header mb-4">
+					<img src="asset/images/logo.png" alt="">
+				</div>
+				<div class="footer-content">
+					<p class="footer-para">Evening creature waters unto fill deep man given divided whales man kind Winged open us and there to multiply land evening under </p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-div">
+				<div class="footer-header">
+					<h4>Our Service</h4>
+				</div>
+				<div class="footer-content">
+					<ul class="footer-link">
+						<li><a href="#">Frontend Developing</a></li>
+						<li><a href="#">Graphic Design</a></li>
+						<li><a href="#">Software Developing</a></li>
+						<li><a href="#">Digital Marketing</a></li>
+						<li><a href="#">Wordpress Developing</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-div">
+				<div class="footer-header">
+					<h4>Instagram feed</h4>
+				</div>
+				<div class="footer-content">
+					<img src="asset/images/instagram/1.jpg" class="insta-img " alt="">
+					<img src="asset/images/instagram/2.jpg" class="insta-img " alt="">
+					<img src="asset/images/instagram/3.jpg" class="insta-img " alt="">
+                    <img src="asset/images/instagram/4.jpg" class="insta-img " alt="">
+					<img src="asset/images/instagram/5.jpg" class="insta-img " alt="">
+					<img src="asset/images/instagram/6.jpg" class="insta-img " alt="">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-div">
+				<div class="footer-header">
+					<h4>Contact Info</h4>
+				</div>
+				<div class="footer-content">
+					<ul class="address">
+						<li>
+							<span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+							<p>67 Sasha Cove,67 Sasha Cove Eest, Andrewburgh, ML11 DB innings West pink city</p>
+						</li>
+						<li><span class="icon"><i class="fa-solid fa-phone"></i></span>
+							<p>+880147896542636</p></li>
+						<li><span class="icon"><i class="fa-solid fa-envelope"></i></span><p>info@aklimaruhina.com</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>	
+<div class="copyright text-center">
+	<p>Copyright © 2019 <a href="#">demo.com</a> All Rights Reserved</p>
+</div>
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+	  <script src="asset/js/jquery-2.2.0.min.js"></script>
+      <script src="asset/js/bootstrap.min.js"></script>
+      <script src="asset/percirclejs/percircle.js"></script>
+      <script src="asset/waterwheel/jquery.waterwheelCarousel.min.js"></script>
+      <script src="asset/wow/js/wow.min.js"></script>
+      <script>
+      	$(document).ready(function(){
+      		$("#demo_1").percircle();
+      		$("#demo_2").percircle();
+      		$("#demo_3").percircle();
+      		$("#demo_4").percircle();
+      		$("#demo_5").percircle();
+      		$("#demo_6").percircle();
+
+      		var carousel = $("#carousel").waterwheelCarousel({
+			    flankingItems: 3,
+			  });
+
+			  $('#prev').bind('click', function () {
+			    carousel.prev();
+			    return false
+			  });
+
+			  $('#next').bind('click', function () {
+			    carousel.next();
+			    return false;
+			  });
+      	});
+      </script>
+      <script>
+            wow = new WOW(
+	      {
+	        animateClass: 'animated',
+	        offset:       100,
+	        callback:     function(box) {
+	          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+	        }
+	      }
+	    );
+	    wow.init();
+      </script>
+   </body>
+   </html>
